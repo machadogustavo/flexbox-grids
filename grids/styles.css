@@ -6,7 +6,7 @@
     grid-template-rows: auto;
     background-color: #2196f3;
     padding: 10px;
-    height: 400px;
+    height: 700px;
 }
 
 .grid-item{
@@ -17,10 +17,24 @@
     padding: 20px;
     font-size: 50px;
     text-align: center;
-    
+}
 
+.grid-item:nth-child(even){
+    background-color: rgba(255, 255, 255,0.7);
 }
 
 .item9 {
     grid-column: 1 / span 2;
+}
+
+.item12{
+    grid-column: 1 / 4;
+}
+
+.item15{
+    grid-column: 2 / 4;
+}
+
+.item19{    
+    grid-column: 3 / span 2;
 }
